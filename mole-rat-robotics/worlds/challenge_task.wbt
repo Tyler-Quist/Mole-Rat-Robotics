@@ -1,0 +1,40 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.799490699580158 0.5804910140822621 0.15441762805643858 5.640764859458131
+  position 1.128037411173828 0.07650689703573685 -0.7860369113732509
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 3 3
+  tileSize 3 3
+  appearance PBRAppearance {
+    baseColor 1 0.999969 0.999985
+    baseColorMap ImageTexture {
+      url [
+        "track.png"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    metalness 0
+  }
+}
+E-puck {
+  hidden position_0_0 698.2120912343419
+  hidden position_0_1 667.6839360267991
+  hidden rotation_1 1 0 0 5.504663169771816
+  hidden rotation_2 -1 0 0 1.6662934657629076
+  translation 1.1684952683700447 -6.394400531904362e-05 -0.9326486647221632
+  rotation 0.00011818880737570147 -0.9999997389347102 0.0007128547658720092 2.8103182980365222
+  name "e-puck-2"
+  controller "line-2"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}

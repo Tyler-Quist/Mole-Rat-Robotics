@@ -1,0 +1,40 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.13690454774286576 -0.9474335416203948 -0.28918303722721533 3.9848641467404304
+  position 2.132721801239619 1.244460307969308 -0.34328754174447385
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 3 3
+  tileSize 3 3
+  appearance PBRAppearance {
+    baseColor 1 0.999969 0.999985
+    baseColorMap ImageTexture {
+      url [
+        "maze1.9_robotics.png"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    metalness 0
+  }
+}
+E-puck {
+  hidden position_0_0 845.4135394382095
+  hidden position_0_1 808.7574463680292
+  hidden rotation_1 -1 0 0 3.4667082761448667
+  hidden rotation_2 -0.9999999999999999 0 0 4.509727049042081
+  translation 1.3 -6.39547e-05 1.08623
+  rotation -0.0006704178998986191 -0.9999996380510864 0.0005238678608222511 -1.6
+  name "e-puck-2"
+  controller "line-2"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}

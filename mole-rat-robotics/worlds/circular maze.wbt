@@ -1,0 +1,36 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.03668701506369874 -0.9330498443969247 -0.3578715562832428 3.3323194201753847
+  position 0.3200360004956653 0.9981952568802529 -1.2910735572658878
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 3 3
+  tileSize 3 3
+  appearance PBRAppearance {
+    baseColor 1 0.999969 0.999985
+    baseColorMap ImageTexture {
+      url [
+        "circular_maze1.2.png"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    metalness 0
+  }
+}
+E-puck {
+  translation -0.0053013 -3.97689e-05 -0.171178
+  rotation 0.0006939387388688575 0.9999996236972667 -0.0005206288040858842 1.56074
+  name "e-puck-2"
+  controller "line-2"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
